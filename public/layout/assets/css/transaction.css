@@ -1,0 +1,316 @@
+.container-fluid.py-4 {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.container-fluid.py-4 > .row:first-child {
+    background: #fff;
+    border-radius: 1rem;
+    padding: 1rem 1.25rem;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.04);
+    margin-bottom: 1rem !important;
+}
+
+.vt-btn-inline {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 135px;
+    height: 38px;
+    padding: 0 1rem;
+    border: 2px solid #344767;
+    border-radius: 0.55rem;
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #fff;
+    color: #344767;
+    transition: all 0.2s ease;
+    letter-spacing: 0.5px;
+}
+
+.vt-btn-inline:hover,
+.vt-btn-inline.selected {
+    background: #344767;
+    color: #fff;
+    border-color: #344767;
+}
+
+.clock-card {
+    height: 230px !important;
+    min-height: 230px;
+    background: linear-gradient(310deg, #2d2d2d 0%, #141727 100%);
+    border-radius: 1rem;
+    color: #fff;
+    overflow: hidden;
+}
+
+.clock-card .card-body {
+    height: 230px;
+    padding: 1.25rem !important;
+}
+
+.clock-card .clock-logo {
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+    border-radius: 0.75rem;
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
+}
+
+.clock-card .clock-day {
+    font-size: 1.35rem;
+    line-height: 1.1;
+    font-weight: 800;
+}
+
+.clock-card .clock-date {
+    font-size: 0.95rem;
+    opacity: 0.85;
+}
+
+.clock-card .clock-time {
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-family: 'Open Sans', monospace;
+    white-space: nowrap;
+}
+
+.location-card {
+    height: 180px !important;
+    min-height: 180px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    border: 2px solid transparent;
+    border-radius: 1rem;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.04);
+}
+
+.location-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.1);
+}
+
+.location-card.selected {
+    border-color: #cb0c9f;
+    box-shadow: 0 12px 28px rgba(203, 12, 159, 0.22);
+}
+
+.location-card .card-body {
+    padding: 1rem !important;
+}
+
+.location-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 0.75rem;
+    background: linear-gradient(310deg, #cb0c9f 0%, #e14eca 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.85rem;
+}
+
+.location-icon i {
+    color: #fff !important;
+    font-size: 1rem !important;
+}
+
+.capacity-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem 0.65rem;
+    margin-top: 0.5rem;
+}
+
+.cap-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.78rem;
+    font-weight: 700;
+}
+
+.cap-item i {
+    font-size: 0.75rem !important;
+    color: #67748e !important;
+}
+
+.cap-num {
+    font-weight: 800;
+}
+
+.cap-num.text-available {
+    color: #17ad37;
+}
+
+.cap-num.text-full {
+    color: #ea0606;
+}
+
+.ticket-panel {
+    height: 230px !important;
+    min-height: 230px;
+    border-radius: 1rem;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.04);
+}
+
+.ticket-panel .card-header {
+    padding: 1.1rem 1.25rem 0.5rem;
+}
+
+.ticket-panel .ticket-entry {
+    padding: 0.55rem 0.6rem;
+    border-bottom: 1px solid #f0f0f0;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.ticket-panel .ticket-entry:last-child {
+    border-bottom: none;
+}
+
+.ticket-panel .ticket-entry:hover {
+    background: #fff3cd;
+}
+
+.ticket-panel .ticket-date {
+    font-size: 0.72rem;
+    color: #67748e;
+    font-weight: 700;
+}
+
+.ticket-panel .ticket-number {
+    font-size: 0.68rem;
+    color: #cb0c9f;
+    font-weight: 700;
+}
+
+.ticket-panel .ticket-price {
+    font-size: 0.72rem;
+    font-weight: 800;
+    color: #344767;
+}
+
+.ticket-list-scroll {
+    max-height: 145px;
+    overflow-y: auto;
+}
+
+.ticket-panel .btn {
+    border-radius: 0.5rem;
+    font-size: 0.68rem;
+    font-weight: 800;
+}
+
+.input-form-card {
+    border-radius: 1rem;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.04);
+}
+
+.input-form-card .card-body {
+    padding: 1.35rem 1.5rem;
+}
+
+.input-form-card .form-control {
+    height: 48px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 0.65rem 1rem;
+    letter-spacing: 0.5px;
+    border-radius: 0.55rem;
+}
+
+.input-form-card h5 {
+    font-size: 1.15rem;
+}
+
+.all-transactions-table th {
+    white-space: nowrap;
+}
+
+
+.btn-icon-plus {
+    color: #fff !important;
+    font-size: 0.75rem !important;
+}
+
+.btn-icon-pdf {
+    color: #fff !important;
+    font-size: 0.65rem !important;
+}
+
+.inbox-icon-empty {
+    font-size: 2rem !important;
+    opacity: 0.3;
+}
+
+.form-title-primary {
+    color: #344767;
+}
+
+.form-title-secondary {
+    color: #67748e;
+    font-weight: 400;
+}
+
+.modal-title-icon {
+    font-size: 1rem !important;
+}
+
+@media (max-width: 991.98px) {
+    .container-fluid.py-4 {
+        max-width: 100%;
+    }
+
+    .clock-card,
+    .ticket-panel {
+        height: auto !important;
+        min-height: 210px;
+    }
+
+    .clock-card .card-body {
+        height: auto;
+        min-height: 210px;
+    }
+
+    .location-card {
+        height: 160px !important;
+        min-height: 160px;
+    }
+
+    .clock-card .clock-time {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .vt-btn-inline {
+        width: 100%;
+    }
+
+    .container-fluid.py-4 > .row:first-child {
+        padding: 1rem;
+    }
+
+    .input-form-card .d-flex {
+        flex-direction: column;
+        align-items: stretch !important;
+        gap: 0.75rem;
+    }
+
+    .input-form-card .btn {
+        width: 100%;
+    }
+}
+
+.btn-icon-minus,
+.btn-icon-minus::before {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+    font-size: 0.75rem !important;
+    opacity: 1 !important;
+}
